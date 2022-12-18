@@ -1,7 +1,6 @@
 import { randomUUID } from 'crypto';
-import { Replace } from 'src/helpers/replace';
-import { runInThisContext } from 'vm';
-import { Content } from '../ValueObjects/content';
+import { Replace } from '@helpers/replace';
+import { Content } from '@application/ValueObjects/content';
 
 export interface NotificationProps {
   recipientId: string;
