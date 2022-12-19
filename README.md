@@ -71,3 +71,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Projeto de Notification
+
+- Realizado junto ao Ignite Lab de NodeJs da Rocketseat - Dezembro/2022
+- Utilização do NodeJs com o framework NestJs para implementar as notificações.
+- Base de dados SQLite com ORM Prisma.
+- Utilização de Factory Pattern e Repository Pattern.
+- Jest para criação de testes.
+- Utilizado o conceito de ValueOject do DDD para criação do conteúdo da notificação criando um valueObject 'content'.
