@@ -9,17 +9,17 @@ interface SendNotificationRequest {
   category: string;
 }
 
-interface SendNotificatonResponse {
+interface SendNotificationResponse {
   notification: Notification;
 }
 
 @Injectable()
-export class SendNotificaton {
+export class SendNotification {
   constructor(private notificationRepository: NotificationsRepository) {}
 
   async execute(
     request: SendNotificationRequest,
-  ): Promise<SendNotificatonResponse> {
+  ): Promise<SendNotificationResponse> {
     const { recipientId, content, category } = request;
 
     const notification = new Notification({
