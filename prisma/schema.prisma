@@ -10,14 +10,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Notificaton{
+model Notification{
   id          String @id
   recipientId String
   content     String
   category    String
   readAt      DateTime?
   canceledAt  DateTime?
-  createAt    DateTime @default(now())
+  createdAt    DateTime @default(now())
 
   @@index([recipientId])
 }
