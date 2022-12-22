@@ -33,9 +33,6 @@
       "@tests/*": [
         "./src/tests/*"
       ],
-      "@use-cases/*": [
-        "./src/use-cases/*"
-      ],
       "@test/*": [
         "./test/*"
       ]
