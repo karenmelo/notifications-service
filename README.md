@@ -22,6 +22,17 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+## Projeto de Notification
+
+- Realizado junto ao Ignite Lab de NodeJs da Rocketseat - Dezembro/2022
+- Utilização do NodeJs com o framework NestJs para implementar as notificações.
+- Base de dados SQLite com ORM Prisma.
+- Utilização de Factory Pattern e Repository Pattern.
+- Jest para criação de testes.
+- Utilizado o conceito de ValueOject do DDD para criação do conteúdo da notificação criando um valueObject 'content'.
+- Criado projeto de kafka-producer para envio de mensagem para ser consumido neste projeto.
+- Implementado a comunicação com kafka através da plataforma upstash.com para ser consumidas mensagens do producer e testar o notification.
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
@@ -71,12 +82,3 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
-
-## Projeto de Notification
-
-- Realizado junto ao Ignite Lab de NodeJs da Rocketseat - Dezembro/2022
-- Utilização do NodeJs com o framework NestJs para implementar as notificações.
-- Base de dados SQLite com ORM Prisma.
-- Utilização de Factory Pattern e Repository Pattern.
-- Jest para criação de testes.
-- Utilizado o conceito de ValueOject do DDD para criação do conteúdo da notificação criando um valueObject 'content'.
